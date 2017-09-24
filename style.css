@@ -14,7 +14,7 @@ div.tab {
 div.tab button {
     width: 27%;
     background-color: inherit;
-    float: left;
+    float: center;
     border: none;
     outline: none;
     cursor: pointer;
