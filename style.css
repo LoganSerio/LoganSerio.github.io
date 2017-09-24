@@ -12,12 +12,13 @@ div.tab {
 
 /* Style the buttons inside the tab */
 div.tab button {
+    width: 27%;
     background-color: inherit;
     float: left;
     border: none;
     outline: none;
     cursor: pointer;
-    padding: 14px 16px;
+    padding: 15px 30px;
     transition: 0.3s;
 }
 
