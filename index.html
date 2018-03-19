@@ -1,311 +1,34 @@
-<!DOCTYPE html>
-<html>
-  <link rel ="stylesheet" href="style.css" type="text/css" />
-  <head>
-    <title>
-      Logan's Website
-    </title>
-  </head>
-  
-  <body>
-    <div class="head">
-      <h1>Christopher Logan Serio</h1>
-      <h2>Software Engineering Student At LSU</h2>
-      <h3>Loganserio@gmail.com | Cserio3@lsu.edu | (972) 322-2559</h3>
-    </div> 
-    <div class="tab">
-      <button class="tablinks" onclick="openTab(event, 'AboutMe')" id="defaultOpen">About Me</button>
-      <button class="tablinks" onclick="openTab(event, 'Projects')">Projects</button>
-      <button class="tablinks" onclick="openTab(event, 'Resume')">Resume</button>
-
+<html> 
+    <head>
+        <link rel='stylesheet' href= 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
+        <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+        <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>
+        <link rel='stylesheet' href='style.css'>
+    </head>
+    <body>
+        <nav class='navbar navbar-inverse navbar-fixed-top'>
+                <div class='container-fluid' id='navmenu'>
+                    <div class='navbar-header'>
+                        <div>
+                            <a class='navbar-brand' href='#'><img class="img-responsive" src='GoodPicture.png'></a>
+                        </div>    
+                    </div>
+                    <ul class='nav navbar-nav'>
+                        <li><a href='#'>Projects</a></li>
+                        <li><a href='#'>About</a></li>
+                        <li><a href='#'>Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+    <div id ='header' class='jumbotron'>
+        <h1 id='greet' >welcome!</h1>
+        <h1 id='jumbotext'>my name is <span style='color: #ff6666; text-shadow: 3px 3px black'>Logan Serio</span> and i'm an aspiring Software Engineer at <span style='color: #daa649; text-shadow: 3px 3px black'>LSU</span>. i love traveling, cooking, and being on the bleeding edge of technology.</h1> 
     </div>
-
-    <div id="AboutMe" class="tabcontent">
-      <img src="http://i68.tinypic.com/2u5sv2q.jpg">
-      <h2 id = "ab1">My name is Christopher Serio and I am a 3rd year Computer Science student at Louisiana State University. I am currently pursuing a Bachelor's Degree in Computer Science with a concentration in Software Engineering and a minor in Math. I'm looking for an internship that can get my foot into the door of the tech world and give me some idea of what my day to day life will be as a software engineer.</h2> 
-      <h2 id = "ab1">I was born in Dallas, TX which is where I've lived until I started college at LSU. In high school I spent most of my time hanging out with friends, cooking, and practicing the clarinet for marching band. My love for programming started in college when I took my first intro to programming classes, but it really took off when I enrolled in a competitive programming class. The feeling that I get when I solve a problem that's been stumping me really makes all of the work pay off.</h2>
+    <div class='projects'>
+        <h1>Projects</h1>
+        <div class='wioc'>
+            <a href='http://whereinourcity.org'><img align='middle' id='wioclogo' src='wiocLogo.png'></a href>
+        </div> 
     </div>
-
-    <div id="Projects" class="tabcontent">
-      <h3>Projects</h3>
-      <p>Team Stats and Plus/Minus GPA Calculator</p> 
-    </div>
-
-    <div id="Resume" class="tabcontent">
-      <table>
-        <tr>
-          <th></th>
-          <th></th>
-        </tr>
-        <tr>
-          <td>
-            <h2><u>Education:</u></h2>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <h3>Louisiana State University, Baton Rouge, LA</h3>
-          </td>
-          <td>
-            <h3>August 2015 - May 2019</h3> 
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <ul>
-              <li>
-                Bachelor of Science, Computer Science
-              </li>
-              <li>
-                Minoring in Math
-              </li>
-            </ul>
-          </td>
-          <td>
-            <h3>3.80 GPA</h3>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <h3>Encounter Engineering in Europe, Study Abroad Program, Germany</h3>
-            </td>
-          <td>
-            <h3>May 14, 2016 - June 5, 2016</h3>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <ul>
-              <li>
-                Toured factories such as DOW Chemical, BMW, Porsche
-              </li>
-              <li>
-                Learned about German culture through emersion
-              </li>
-              <li>
-                Traveled to Berlin, Leipzig, Prague, and Munich while taking the course Honors 2020
-              </li>
-            </ul>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <h3>Relevent Courses</h3>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <ul>
-              <li>
-                Competitive Programming, Discrete Structures, Advanced Data Structures, Object-Oriented-Design, Computer Organization and Design, Programming Languages, Software Systems Development
-              </li>
-            </ul>
-          </td>
-        </tr>
-              <tr>
-        <td>
-          <h2><u>Skills and Strengths:</u></h2>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <ul>
-            <li>
-              <b>Programming Languages:</b> Java (2 years), HTML/CSS (Less than 1 year), C (Less than half a year), Python (Less than half a year), MySQL/SQLite (Less than half a year) 
-            </li>
-            <li>
-              <b>Software Experience:</b> Microsoft Office, 3ds Max, Game maker, Intellij, Netbeans, Android Studio, Vim, Win SCP
-            </li>
-            <li>
-              <b>Operating Systems:</b> Windows (7, 8.1, 10), Ubuntu 
-            </li>
-          </ul>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <h2><u>Activities:</u></h2>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <h3>Society of Peer Mentors</h3>
-        </td>
-        <td>
-          <h3>March 2016 - Present</h3>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <ul>
-            <li>
-               Met once a month to discuss and work on leadership skills
-            </li>
-            <li>
-              Volunteered at outreaches to promote STEM education
-            </li>
-          </ul>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <h3>Encounter Engineering Camp</h3>
-        </td>
-        <td>
-          <h3>August 2017</h3>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <ul>
-            <li>
-               Mentored a group of five freshman Computer Science students as they completed engineering related activities and a week-long design project
-            </li>
-          </ul>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <h2><u>Work Experience:</u></h2>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <h3>Chevron Center</h3>
-        </td>
-        <td>
-          <h3>August 2017 - Present</h3>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <h3><i>Student Worker</i></h3>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <ul>
-            <li>
-              Assist any students that are using the Chevron Center and answer their questions
-            </li>
-            <li>
-              Manage the 3d printer, Z-Space, large format printer, and 3d scanner
-            </li>
-            	<li>
-                Check equipment in/out to students
-            </li>
-          </ul>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <h3>Baton Rouge Country Club</h3>
-        </td>
-        <td>
-          <h3>August 2016 - December 2016</h3>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <h3><i>Fitness Staff Member</i></h3>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <ul>
-            <li>
-              Greet every member and ensure that all their needs are met
-            </li>
-            <li>
-              Work with the security staff to open and close the facility
-            </li>
-            	Watch over members in weight room and provide CPR assistance if needed
-          </ul>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <h3>Nick and Sam's</h3>
-        </td>
-        <td>
-          <h3>June 2016 - August 2016</h3>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <h3><i>Server's Assistant</i></h3>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <ul>
-            <li>
-              Work together with other servers and bussers to provide each guest exceptional service
-            </li>
-            <li>
-              Clear tables and pour water for a large section of the restaurant each night
-            </li>
-            	Make coffee, bread baskets, and caviar plates and bring them to each table
-          </ul>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <h2><u>Projects:</u></h2>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <h3>Team Stats</h3>
-        </td>
-        <td>
-          <h3>Launched on Google Play May 2017</h3>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <h3><i>Lead Programmer/Partial Designer of User Interface/Tester</i></h3>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <ul>
-            <li>
-              Worked with a team of 4 over the course of a semester to build an app for users to keep track of statistics for various sports
-            </li>
-            <li>
-              <A href="https://play.google.com/store/apps/details?id=com.teamstats.android.abc&hl=en"> Google Play Listing </A>
-            </li>
-          </ul>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <h3>Plus/Minus GPA Calculator</h3>
-        </td>
-        <td>
-          <h3>Launched on Google Play Summer 2017</h3>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <h3><i>Solo Project</i></h3>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <ul>
-            <li>
-              Worked on my own to make an application for the Google Play Store to calculate a user’s GPA using the plus minus grading scale
-            </li>
-            <li>
-              <A href="https://play.google.com/store/apps/details?id=com.logan.plusminusgpacalculator&hl=en"> Google Play Listing</A>
-            </li>
-          </ul>
-        </td>
-      </tr>
-      </table>    
-    </div>
-    <script src="tabs.js"></script>
-  </body>
+    </body>
 </html>
